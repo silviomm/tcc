@@ -1,4 +1,4 @@
-﻿using System;
+﻿using TCC.PLINQ;
 
 namespace TCC
 {
@@ -6,6 +6,7 @@ namespace TCC
     {
         static void Main(string[] args)
         {
+            PlinqExamples.Benchmark();
         }
     }
 }
