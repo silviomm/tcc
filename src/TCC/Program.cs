@@ -1,4 +1,5 @@
 ﻿using TCC.PLINQ;
+using TCC.Semaphores;
 
 namespace TCC
 {
@@ -6,7 +7,8 @@ namespace TCC
     {
         static void Main(string[] args)
         {
-            PlinqExamples.Benchmark();
+            // PlinqExamples.Benchmark();
+            SemaphoreExamples.OverloadsExample();
         }
     }
 }
